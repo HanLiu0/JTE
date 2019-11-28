@@ -1,0 +1,1638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    The properties in this file are loaded when the JTE game application
+    first loads.
+-->
+<properties>
+    <property_list>
+        <property name="DATA_PATH"                  value="data/"></property>
+        <property name="IMG_PATH"                   value="file:images/"></property>
+    	<property name="WINDOW_WIDTH"               value="1397"></property>
+        <property name="WINDOW_HEIGHT"              value="837"></property>
+        <property name="MAP_WIDTH"               value="897"></property>
+        <property name="CARD_WIDTH"               value="225"></property>
+        <property name="CARD_HEIGHT"              value="320"></property>
+        <property name="BUTTON_WIDTH"               value="220"></property>
+        <property name="BUTTON_HEIGHT"              value="60"></property>
+        <property name="SPLASH_SCREEN_TITLE_TEXT"   value="Journey Through Europe"></property>
+        <property name="SPLASH_SCREEN_BG_IMG"   value="Game.jpg"></property>
+        <property name="SPLASH_RETURN_BUTTON_TEXT"   value="Return"></property>
+        <property name="ABOUT_SCREEN_TITLE_TEXT"   value="Journey Through Europe"></property>
+        <property name="HISTORY_SCREEN_TITLE_TEXT"   value="Current Game History"></property>
+        <property name="SELECT_SCREEN_GO_BUTTON_TEXT"   value="GO!"></property>
+        <property name="SELECT_SCREEN_PLAYERS_TEXT"   value="Number of Players: "></property>
+        <property name="SELECT_SCREEN_COMPUTER_TEXT"   value="Computer"></property>
+        <property name="SELECT_SCREEN_PLAYER_TEXT"   value="Player"></property>
+        <property name="SELECT_SCREEN_PLAYER_NAME_TEXT"   value="Player"></property>
+        <property name="SELECT_SCREEN_NAME_TEXT"   value="Name:"></property>
+        <property name="SELECT_SCREEN_TITLE_TEXT"   value="Select Players"></property>
+        <property name="GAMEPLAY_14_TEXT"   value="1-4"></property>
+        <property name="GAMEPLAY_58_TEXT"   value="5-8"></property>
+        <property name="GAMEPLAY_AC_TEXT"   value="A-C"></property>
+        <property name="GAMEPLAY_DF_TEXT"   value="D-F"></property>
+        <property name="GAMEPLAY_RETURN_BUTTON_TEXT"   value="Return"></property>
+        <property name="GAMEPLAY_WHOLE"   value="gameplay.jpg"></property>
+        <property name="GAMEPLAY_FLIGHT_PLAN"   value="Fligh_Plan.jpg"></property>
+        <property name="GAMEPLAY_SELECT_CITY"   value="Select City"></property>
+        <property name="GAME_DESC_FILE"   value="gameDescription.txt"></property>
+        <property name="CITY_DESCRIPTION_FILE"	value="cityDescription.txt"></property>
+        <property name="FLIGHT_CITIES_FILE"	value="flightCities.txt"></property>
+        <property name="GAME_WIN_GIF"	value="gameWin.gif"></property>
+        <property name="SAVED_GAME_FILE"	value="savedGame.txt"></property>
+        <property name="CITY_DOT_RADIUS"        value="10"></property>
+        <property name="LETTERS_FONT_FAMILY"        value="monospaced"></property>
+        <property name="LETTERS_FONT_SIZE"          value="24"></property>
+        <property name="DEFAULT_YES_TEXT"           value="Yes"></property>
+        <property name="DEFAULT_NO_TEXT"            value="No"></property>
+        <property name="DEFAULT_EXIT_TEXT"          value="Are you sure you wish to Quit?"></property>
+
+    </property_list>
+    <property_options_list>
+	    <property_options name="SPLASH_SCREEN_BUTTONS">
+	            <option>startButton.jpg</option>
+	            <option>loadButton.jpg</option>
+	            <option>aboutButton.jpg</option>
+	            <option>quitButton.jpg</option>
+	    </property_options>
+	    	    <property_options name="CITY_LOCATIONS_FILE">
+	            <option>quarter1.txt</option>
+	            <option>quarter2.txt</option>
+	            <option>quarter3.txt</option>
+	            <option>quarter4.txt</option>
+	    </property_options>
+	    <property_options name="GAMEPLAY_SCREEN_BUTTONS">
+	            <option>flight_plan.jpg</option>
+	            <option>game_history.jpg</option>
+	            <option>about_jte.jpg</option>
+	            <option>save.jpg</option>
+	    </property_options>
+	    <property_options name="FLAGS_IMG_PATH">
+	            <option>flag_black.png</option>
+	            <option>flag_yellow.png</option>
+	            <option>flag_blue.png</option>
+	            <option>flag_red.png</option>
+	            <option>flag_green.png</option>
+	            <option>flag_white.png</option>
+	    </property_options>
+	    <property_options name="MAP_QUARTER_PATHS">
+	            <option>gameplay_AC14.jpg</option>
+	            <option>gameplay_DF14.jpg</option>
+	            <option>gameplay_AC58.jpg</option>
+	            <option>gameplay_DF58.jpg</option>
+	    </property_options>
+	    <property_options name="PIECE_IMG_PATH">
+            <option>piece_black.png</option>
+            <option>piece_yellow.png</option>
+            <option>piece_blue.png</option>
+            <option>piece_red.png</option>
+            <option>piece_green.png</option>
+            <option>piece_white.png</option>
+        </property_options>
+        <property_options name="DICE_IMG_PATH">
+            <option>die_1.jpg</option>
+            <option>die_2.jpg</option>
+            <option>die_3.jpg</option>
+            <option>die_4.jpg</option>
+            <option>die_5.jpg</option>
+            <option>die_6.jpg</option>
+        </property_options>
+        <property_options name="GREEN_CARD_NAME_OPTIONS">
+            <option>BASEL</option>
+            <option>BERN</option>
+            <option>BOLZANO</option>
+            <option>BOURGES</option>
+            <option>BREST</option>
+            <option>BRNO</option>
+            <option>BRUXELLES</option>
+            <option>BUCURESTI</option>
+            <option>BUDAPEST</option>
+            <option>CALAIS</option>
+            <option>CERNOVCY</option>
+            <option>CHARKOV</option>
+            <option>CLERMONT_FERRAND</option>
+            <option>CLUJ_NAPOCA</option>
+            <option>CONSTANTA</option>
+            <option>DIJON</option>
+            <option>DOVER</option>
+            <option>DRESDEN</option>
+            <option>FRANKFURT</option>
+            <option>GALATI</option>
+            <option>GENEVE</option>
+            <option>GRAZ</option>
+            <option>INNSBRUCK</option>
+            <option>KASSEL</option>
+            <option>KIJEV</option>
+            <option>KOLN</option>
+            <option>KRAKOV</option>
+            <option>LE_HAVRE</option>
+            <option>LEIPZIG</option>
+            <option>LILLE</option>
+            <option>LIMOGES</option>
+            <option>LINZ</option>
+            <option>LODZ</option>
+            <option>LUXEMBOURG</option>
+            <option>LVOV</option>
+            <option>LYON</option>
+            <option>MISKOLC</option>
+            <option>MUNCHEN</option>
+            <option>NANCY</option>
+            <option>NANTES</option>
+            <option>NURNBERG</option>
+            <option>ODESSA</option>
+            <option>ORLEANS</option>
+            <option>PARIS</option>
+            <option>PLYMOUTH</option>
+            <option>PLZEN</option>
+            <option>PRAHA</option>
+            <option>REIMS</option>
+            <option>RENNES</option>
+            <option>ROTTERDAM</option>
+            <option>SALZBURG</option>
+            <option>STRASBOURG</option>
+            <option>STUTTGART</option>
+            <option>TOURS</option>
+            <option>TRIESTE</option>
+            <option>VINNICA</option>
+            <option>WIEN</option>
+            <option>WROCLAW</option>
+            <option>ZAGREB</option>
+            <option>ZURICH</option>
+        </property_options>
+        <property_options name="RED_CARD_NAME_OPTIONS">
+            <option>ABERDEEN</option>
+            <option>AMSTERDAM</option>
+            <option>ARHUS</option>
+            <option>ARKHANGELSK</option>
+            <option>BELFAST</option>
+            <option>BERGEN</option>
+            <option>BERLIN</option>
+            <option>BIRMINGHAM</option>
+            <option>BREMEN</option>
+            <option>BRISTOL</option>
+            <option>CORK</option>
+            <option>DUBLIN</option>
+            <option>FAROER</option>
+            <option>GAVLE</option>
+            <option>GDANSK</option>
+            <option>GLASGOW</option>
+            <option>GOTEBORG</option>
+            <option>GRONINGEN</option>
+            <option>HAMBURG</option>
+            <option>HAMMERFEST</option>
+            <option>HANNOVER</option>
+            <option>HELSINKI</option>
+            <option>INVERNESS</option>
+            <option>JONKOPING</option>
+            <option>KARLSTAD</option>
+            <option>KIEL</option>
+            <option>KIRUNA</option>
+            <option>KOBENHAVN</option>
+            <option>LEEDS</option>
+            <option>LENINGRAD</option>
+            <option>LIVERPOOL</option>
+            <option>LONDON</option>
+            <option>LUBECK</option>
+            <option>LULEA</option>
+            <option>MAGDEBURG</option>
+            <option>MALMO</option>
+            <option>MINSK</option>
+            <option>MOSKVA</option>
+            <option>NARVIK</option>
+            <option>NEWCASTLE</option>
+            <option>NORRKOPING</option>
+            <option>OSLO</option>
+            <option>OULU</option>
+            <option>POZNAN</option>
+            <option>REYKJAVIK</option>
+            <option>RIGA</option>
+            <option>ROSTOCK</option>
+            <option>ROVANIEMI</option>
+            <option>SHETLAND_ISLANDS</option>
+            <option>SMOLENSK</option>
+            <option>STAVANGER</option>
+            <option>STOCKHOLM</option>
+            <option>SUNDSVALL</option>
+            <option>SZCZECIN</option>
+            <option>TALLIN</option>
+            <option>TAMPERE</option>
+            <option>TORONDHEIM</option>
+            <option>VAASA</option>
+            <option>VITEBSK</option>
+            <option>WARSZAWA</option>
+        </property_options>
+        <property_options name="YELLOW_CARD_NAME_OPTIONS">
+            <option>AJACCIO</option>
+            <option>ALICANTE</option>
+            <option>ANCONA</option>
+            <option>ATHINAI</option>
+            <option>BADAJOZ</option>
+            <option>BARCELONA</option>
+            <option>BARI</option>
+            <option>BEOGRAD</option>
+            <option>BIARRITZ</option>
+            <option>BOLOGNA</option>
+            <option>BORDEAUX</option>
+            <option>CADIZ</option>
+            <option>CAGLIARI</option>
+            <option>CATANIA</option>
+            <option>COIMBRA</option>
+            <option>CORDOBA</option>
+            <option>DUBROVNIK</option>
+            <option>EDIRNE</option>
+            <option>FIRENZE</option>
+            <option>GENOVA</option>
+            <option>GRANADA</option>
+            <option>ISTANBUL</option>
+            <option>LA_CORUNA</option>
+            <option>LARISA</option>
+            <option>LISBOA</option>
+            <option>MADRID</option>
+            <option>MALAGA</option>
+            <option>MARSEILLE</option>
+            <option>MESSINA</option>
+            <option>MILANO</option>
+            <option>NAPOLI</option>
+            <option>NARBONNE</option>
+            <option>NICE</option>
+            <option>NIS</option>
+            <option>PALERMO</option>
+            <option>PALMA_MALLORCA</option>
+            <option>PATRAI</option>
+            <option>PESCARA</option>
+            <option>PISA</option>
+            <option>PLOVDIV</option>
+            <option>PORTO</option>
+            <option>ROMA</option>
+            <option>SAN_SEBASTIAN</option>
+            <option>SANTANDER</option>
+            <option>SARAJEVO</option>
+            <option>SASSARI</option>
+            <option>SEVILLA</option>
+            <option>SKOPJE</option>
+            <option>SOFIJA</option>
+            <option>SPLIT</option>
+            <option>TARANTO</option>
+            <option>THESSALONIKI</option>
+            <option>TIRANE</option>
+            <option>TORINO</option>
+            <option>TOULOUSE</option>
+            <option>VALENCIA</option>
+            <option>VALLADOLID</option>
+            <option>VARNA</option>
+            <option>VENEZIA</option>
+            <option>ZARAGOZA</option>
+        </property_options>
+        <property_options name="DICE_NAME_OPTIONS">
+            <option>die_1.jpg</option>
+            <option>die_2.jpg</option>
+            <option>die_3.jpg</option>
+            <option>die_4.jpg</option>
+            <option>die_5.jpg</option>
+            <option>die_6.jpg</option>
+        </property_options>
+        <property_options name="CORK_LAND">
+            <option>DUBLIN</option>
+        </property_options>
+        <property_options name="CORK_SEA">
+        </property_options>
+        <property_options name="FAROER_LAND">
+        </property_options>
+        <property_options name="FAROER_SEA">
+            <option>REYKJAVIK</option>
+            <option>SHETLAND_ISLANDS</option>
+            <option>MALMO</option>
+        </property_options>
+        <property_options name="MAGDEBURG_LAND">
+            <option>BERLIN</option>
+            <option>HANNOVER</option>
+        </property_options>
+        <property_options name="MAGDEBURG_SEA">
+        </property_options>
+        <property_options name="BELFAST_LAND">
+            <option>DUBLIN</option>
+        </property_options>
+        <property_options name="BELFAST_SEA">
+            <option>GLASGOW</option>
+        </property_options>
+        <property_options name="MALMO_LAND">
+            <option>JONKOPING</option>
+            <option>GOTEBORG</option>
+            <option>KOBENHAVN</option>
+        </property_options>
+        <property_options name="MALMO_SEA">
+        </property_options>
+        <property_options name="KIEL_LAND">
+            <option>ARHUS</option>
+            <option>BREMEN</option>
+        </property_options>
+        <property_options name="KIEL_SEA">
+        </property_options>
+        <property_options name="OULU_LAND">
+            <option>VAASA</option>
+            <option>ROVANIEMI</option>
+        </property_options>
+        <property_options name="OULU_SEA">
+        </property_options>
+        <property_options name="MINSK_LAND">
+            <option>SMOLENSK</option>
+            <option>WARSZAWA</option>
+        </property_options>
+        <property_options name="MINSK_SEA">
+        </property_options>
+        <property_options name="GRONINGEN_LAND">
+            <option>HAMBURG</option>
+            <option>AMSTERDAM</option>
+        </property_options>
+        <property_options name="GRONINGEN_SEA">
+        </property_options>
+        <property_options name="STAVANGER_LAND">
+            <option>OSLO</option>
+        </property_options>
+        <property_options name="STAVANGER_SEA">
+            <option>BERGEN</option>
+        </property_options>
+        <property_options name="LEEDS_LAND">
+            <option>LONDON</option>
+            <option>LIVERPOOL</option>
+            <option>NEWCASTLE</option>
+        </property_options>
+        <property_options name="LEEDS_SEA">
+        </property_options>
+        <property_options name="NORRKOPING_LAND">
+            <option>JONKOPING</option>
+            <option>STOCKHOLM</option>
+        </property_options>
+        <property_options name="NORRKOPING_SEA">
+        </property_options>
+        <property_options name="VAASA_LAND">
+            <option>OULU</option>
+            <option>TAMPERE</option>
+        </property_options>
+        <property_options name="VAASA_SEA">
+        </property_options>
+        <property_options name="GAVLE_LAND">
+            <option>SUNDSVALL</option>
+            <option>STOCKHOLM</option>
+        </property_options>
+        <property_options name="GAVLE_SEA">
+        </property_options>
+        <property_options name="LUBECK_LAND">
+            <option>KOBENHAVN</option>
+            <option>BREMEN</option>
+        </property_options>
+        <property_options name="LUBECK_SEA">
+            <option>STOCKHOLM</option>
+        </property_options>
+        <property_options name="VITEBSK_LAND">
+            <option>LENINGRAD</option>
+            <option>SMOLENSK</option>
+            <option>RIGA</option>
+        </property_options>
+        <property_options name="VITEBSK_SEA">
+        </property_options>
+        <property_options name="JONKOPING_LAND">
+            <option>NORRKOPING</option>
+            <option>GOTEBORG</option>
+            <option>MALMO</option>
+        </property_options>
+        <property_options name="JONKOPING_SEA">
+        </property_options>
+        <property_options name="TORONDHEIM_LAND">
+            <option>SUNDSVALL</option>
+        </property_options>
+        <property_options name="TORONDHEIM_SEA">
+            <option>NARVIK</option>
+            <option>BERGEN</option>
+        </property_options>
+        <property_options name="POZNAN_LAND">
+            <option>GDANSK</option>
+            <option>SZCZECIN</option>
+            <option>BERLIN</option>
+            <option>WROCLAW</option>
+            <option>LODZ</option>
+        </property_options>
+        <property_options name="POZNAN_SEA">
+        </property_options>
+        <property_options name="HANNOVER_LAND">
+            <option>HAMBURG</option>
+            <option>BREMEN</option>
+            <option>KASSEL</option>
+            <option>MAGDEBURG</option>
+        </property_options>
+        <property_options name="HANNOVER_SEA">
+        </property_options>
+        <property_options name="KARLSTAD_LAND">
+            <option>OSLO</option>
+            <option>STOCKHOLM</option>
+        </property_options>
+        <property_options name="KARLSTAD_SEA">
+        </property_options>
+        <property_options name="NEWCASTLE_LAND">
+            <option>GLASGOW</option>
+            <option>LEEDS</option>
+        </property_options>
+        <property_options name="NEWCASTLE_SEA">
+            <option>BERGEN</option>
+            <option>BREMEN</option>
+        </property_options>
+        <property_options name="ARKHANGELSK_LAND">
+            <option>LENINGRAD</option>
+            <option>MOSKVA</option>
+        </property_options>
+        <property_options name="ARKHANGELSK_SEA">
+            <option>HAMMERFEST</option>
+        </property_options>
+        <property_options name="GOTEBORG_LAND">
+            <option>JONKOPING</option>
+            <option>MALMO</option>
+            <option>OSLO</option>
+        </property_options>
+        <property_options name="GOTEBORG_SEA">
+        </property_options>
+        <property_options name="SZCZECIN_LAND">
+            <option>POZNAN</option>
+        </property_options>
+        <property_options name="SZCZECIN_SEA">
+        </property_options>
+        <property_options name="TALLIN_LAND">
+            <option>LENINGRAD</option>
+            <option>RIGA</option>
+        </property_options>
+        <property_options name="TALLIN_SEA">
+        </property_options>
+        <property_options name="INVERNESS_LAND">
+            <option>ABERDEEN</option>
+            <option>GLASGOW</option>
+        </property_options>
+        <property_options name="INVERNESS_SEA">
+        </property_options>
+        <property_options name="TAMPERE_LAND">
+            <option>VAASA</option>
+            <option>HELSINKI</option>
+        </property_options>
+        <property_options name="TAMPERE_SEA">
+        </property_options>
+        <property_options name="SUNDSVALL_LAND">
+            <option>LULEA</option>
+            <option>GAVLE</option>
+        </property_options>
+        <property_options name="SUNDSVALL_SEA">
+        </property_options>
+        <property_options name="LIVERPOOL_LAND">
+            <option>LEEDS</option>
+            <option>BIRMINGHAM</option>
+            <option>GLASGOW</option>
+        </property_options>
+        <property_options name="LIVERPOOL_SEA">
+            <option>DUBLIN</option>
+        </property_options>
+        <property_options name="LULEA_LAND">
+            <option>KIRUNA</option>
+            <option>ROVANIEMI</option>
+            <option>SUNDSVALL</option>
+        </property_options>
+        <property_options name="LULEA_SEA">
+        </property_options>
+        <property_options name="SMOLENSK_LAND">
+            <option>VITEBSK</option>
+            <option>MOSKVA</option>
+            <option>MINSK</option>
+            <option>KIJEV</option>
+        </property_options>
+        <property_options name="SMOLENSK_SEA">
+        </property_options>
+        <property_options name="NARVIK_LAND">
+            <option>KIRUNA</option>
+        </property_options>
+        <property_options name="NARVIK_SEA">
+            <option>HAMMERFEST</option>
+            <option>TORONDHEIM</option>
+        </property_options>
+        <property_options name="ARHUS_LAND">
+            <option>KOBENHAVN</option>
+            <option>KIEL</option>
+        </property_options>
+        <property_options name="ARHUS_SEA">
+            <option>OSLO</option>
+        </property_options>
+        <property_options name="ROSTOCK_LAND">
+            <option>BERLIN</option>
+        </property_options>
+        <property_options name="ROSTOCK_SEA">
+        </property_options>
+        <property_options name="BIRMINGHAM_LAND">
+            <option>LONDON</option>
+            <option>BRISTOL</option>
+            <option>LIVERPOOL</option>
+        </property_options>
+        <property_options name="BIRMINGHAM_SEA">
+        </property_options>
+        <property_options name="BREMEN_LAND">
+            <option>KIEL</option>
+            <option>LUBECK</option>
+            <option>HANNOVER</option>
+            <option>HAMBURG</option>
+            <option>BERLIN</option>
+        </property_options>
+        <property_options name="BREMEN_SEA">
+            <option>NEWCASTLE</option>
+        </property_options>
+        <property_options name="ABERDEEN_LAND">
+            <option>INVERNESS</option>
+            <option>GLASGOW</option>
+        </property_options>
+        <property_options name="ABERDEEN_SEA">
+            <option>SHETLAND_ISLANDS</option>
+        </property_options>
+        <property_options name="KIRUNA_LAND">
+            <option>NARVIK</option>
+            <option>LULEA</option>
+        </property_options>
+        <property_options name="KIRUNA_SEA">
+        </property_options>
+        <property_options name="GLASGOW_LAND">
+            <option>INVERNESS</option>
+            <option>ABERDEEN</option>
+            <option>NEWCASTLE</option>
+            <option>LIVERPOOL</option>
+        </property_options>
+        <property_options name="GLASGOW_SEA">
+            <option>BELFAST</option>
+        </property_options>
+        <property_options name="BERGEN_LAND">
+            <option>OSLO</option>
+        </property_options>
+        <property_options name="BERGEN_SEA">
+            <option>TORONDHEIM</option>
+            <option>STAVANGER</option>
+            <option>NEWCASTLE</option>
+        </property_options>
+        <property_options name="BRISTOL_LAND">
+            <option>BIRMINGHAM</option>
+            <option>LONDON</option>
+        </property_options>
+        <property_options name="BRISTOL_SEA">
+        </property_options>
+        <property_options name="LONDON_LAND">
+            <option>LEEDS</option>
+            <option>BIRMINGHAM</option>
+            <option>BRISTOL</option>
+            <option>PLYMOUTH</option>
+            <option>DOVER</option>
+        </property_options>
+        <property_options name="LONDON_SEA">
+            <option>ROTTERDAM</option>
+            <option>OSLO</option>
+        </property_options>
+        <property_options name="REYKJAVIK_LAND">
+        </property_options>
+        <property_options name="REYKJAVIK_SEA">
+            <option>FAROER</option>
+        </property_options>
+        <property_options name="RIGA_LAND">
+            <option>TALLIN</option>
+            <option>WARSZAWA</option>
+            <option>VITEBSK</option>
+        </property_options>
+        <property_options name="RIGA_SEA">
+        </property_options>
+        <property_options name="GDANSK_LAND">
+            <option>WARSZAWA</option>
+            <option>POZNAN</option>
+        </property_options>
+        <property_options name="GDANSK_SEA">
+        </property_options>
+        <property_options name="KOBENHAVN_LAND">
+            <option>MALMO</option>
+            <option>ARHUS</option>
+            <option>KIEL</option>
+            <option>LUBECK</option>
+        </property_options>
+        <property_options name="KOBENHAVN_SEA">
+            <option>FAROER</option>
+        </property_options>
+        <property_options name="HAMMERFEST_LAND">
+            <option>ROVANIEMI</option>
+        </property_options>
+        <property_options name="HAMMERFEST_SEA">
+            <option>NARVIK</option>
+            <option>ARKHANGELSK</option>
+        </property_options>
+        <property_options name="ROVANIEMI_LAND">
+            <option>HAMMERFEST</option>
+            <option>LULEA</option>
+            <option>OULU</option>
+        </property_options>
+        <property_options name="ROVANIEMI_SEA">
+        </property_options>
+        <property_options name="SHETLAND_ISLANDS_LAND">
+        </property_options>
+        <property_options name="SHETLAND_ISLANDS_SEA">
+            <option>FAROER</option>
+            <option>ABERDEEN</option>
+        </property_options>
+        <property_options name="STOCKHOLM_LAND">
+            <option>GAVLE</option>
+            <option>KARLSTAD</option>
+            <option>NORRKOPING</option>
+        </property_options>
+        <property_options name="STOCKHOLM_SEA">
+            <option>KIEL</option>
+            <option>HELSINKI</option>
+            <option>LUBECK</option>
+        </property_options>
+        <property_options name="HAMBURG_LAND">
+            <option>BREMEN</option>
+            <option>HANNOVER</option>
+            <option>KOLN</option>
+            <option>GRONINGEN</option>
+        </property_options>
+        <property_options name="HAMBURG_SEA">
+        </property_options>
+        <property_options name="OSLO_LAND">
+            <option>BERGEN</option>
+            <option>STAVANGER</option>
+            <option>KARLSTAD</option>
+            <option>GOTEBORG</option>
+        </property_options>
+        <property_options name="OSLO_SEA">
+            <option>ARHUS</option>
+            <option>LONDON</option>
+        </property_options>
+        <property_options name="HELSINKI_LAND">
+            <option>TAMPERE</option>
+            <option>LENINGRAD</option>
+        </property_options>
+        <property_options name="HELSINKI_SEA">
+            <option>STOCKHOLM</option>
+        </property_options>
+        <property_options name="LENINGRAD_LAND">
+            <option>HELSINKI</option>
+            <option>TALLIN</option>
+            <option>VITEBSK</option>
+            <option>MOSKVA</option>
+            <option>ARKHANGELSK</option>
+        </property_options>
+        <property_options name="LENINGRAD_SEA">
+        </property_options>
+        <property_options name="WARSZAWA_LAND">
+            <option>RIGA</option>
+            <option>MINSK</option>
+            <option>KRAKOV</option>
+            <option>LODZ</option>
+            <option>GDANSK</option>
+        </property_options>
+        <property_options name="WARSZAWA_SEA">
+        </property_options>
+        <property_options name="BERLIN_LAND">
+            <option>BREMEN</option>
+            <option>ROSTOCK</option>
+            <option>POZNAN</option>
+            <option>DRESDEN</option>
+            <option>MAGDEBURG</option>
+        </property_options>
+        <property_options name="BERLIN_SEA">
+        </property_options>
+        <property_options name="MOSKVA_LAND">
+            <option>LENINGRAD</option>
+            <option>SMOLENSK</option>
+            <option>CHARKOV</option>
+            <option>ARKHANGELSK</option>
+        </property_options>
+        <property_options name="MOSKVA_SEA">
+        </property_options>
+        <property_options name="DUBLIN_LAND">
+            <option>BELFAST</option>
+            <option>CORK</option>
+        </property_options>
+        <property_options name="DUBLIN_SEA">
+            <option>LIVERPOOL</option>
+        </property_options>
+        <property_options name="AMSTERDAM_LAND">
+            <option>GRONINGEN</option>
+            <option>KOLN</option>
+            <option>ROTTERDAM</option>
+        </property_options>
+        <property_options name="AMSTERDAM_SEA">
+        </property_options>
+        <property_options name="THESSALONIKI_LAND">
+            <option>SKOPJE</option>
+            <option>EDIRNE</option>
+            <option>LARISA</option>
+        </property_options>
+        <property_options name="THESSALONIKI_SEA">
+        </property_options>
+        <property_options name="PISA_LAND">
+            <option>FIRENZE</option>
+            <option>ROMA</option>
+            <option>GENOVA</option>
+        </property_options>
+        <property_options name="PISA_SEA">
+        </property_options>
+        <property_options name="SARAJEVO_LAND">
+            <option>ZAGREB</option>
+            <option>BEOGRAD</option>
+            <option>DUBROVNIK</option>
+        </property_options>
+        <property_options name="SARAJEVO_SEA">
+        </property_options>
+        <property_options name="SPLIT_LAND">
+            <option>ZAGREB</option>
+            <option>TRIESTE</option>
+            <option>DUBROVNIK</option>
+        </property_options>
+        <property_options name="SPLIT_SEA">
+            <option>ANCONA</option>
+        </property_options>
+        <property_options name="BIARRITZ_LAND">
+            <option>BORDEAUX</option>
+            <option>TOULOUSE</option>
+            <option>SAN_SEBASTIAN</option>
+        </property_options>
+        <property_options name="BIARRITZ_SEA">
+        </property_options>
+        <property_options name="TORINO_LAND">
+            <option>MILANO</option>
+            <option>LYON</option>
+        </property_options>
+        <property_options name="TORINO_SEA">
+        </property_options>
+        <property_options name="TOULOUSE_LAND">
+            <option>BORDEAUX</option>
+            <option>BIARRITZ</option>
+            <option>NARBONNE</option>
+        </property_options>
+        <property_options name="TOULOUSE_SEA">
+        </property_options>
+        <property_options name="PESCARA_LAND">
+            <option>ANCONA</option>
+            <option>ROMA</option>
+            <option>BARI</option>
+        </property_options>
+        <property_options name="PESCARA_SEA">
+        </property_options>
+        <property_options name="CADIZ_LAND">
+            <option>SEVILLA</option>
+        </property_options>
+        <property_options name="CADIZ_SEA">
+            <option>MALAGA</option>
+            <option>LISBOA</option>
+        </property_options>
+        <property_options name="VALLADOLID_LAND">
+            <option>SANTANDER</option>
+            <option>LA_CORUNA</option>
+            <option>MADRID</option>
+        </property_options>
+        <property_options name="VALLADOLID_SEA">
+        </property_options>
+        <property_options name="SASSARI_LAND">
+            <option>CAGLIARI</option>
+        </property_options>
+        <property_options name="SASSARI_SEA">
+            <option>AJACCIO</option>
+        </property_options>
+        <property_options name="CORDOBA_LAND">
+            <option>MADRID</option>
+            <option>GRANADA</option>
+            <option>SEVILLA</option>
+        </property_options>
+        <property_options name="CORDOBA_SEA">
+        </property_options>
+        <property_options name="SKOPJE_LAND">
+            <option>NIS</option>
+            <option>THESSALONIKI</option>
+        </property_options>
+        <property_options name="SKOPJE_SEA">
+        </property_options>
+        <property_options name="ALICANTE_LAND">
+            <option>VALENCIA</option>
+            <option>MADRID</option>
+            <option>GRANADA</option>
+        </property_options>
+        <property_options name="ALICANTE_SEA">
+        </property_options>
+        <property_options name="SAN_SEBASTIAN_LAND">
+            <option>BIARRITZ</option>
+            <option>SANTANDER</option>
+            <option>ZARAGOZA</option>
+        </property_options>
+        <property_options name="SAN_SEBASTIAN_SEA">
+        </property_options>
+        <property_options name="BOLOGNA_LAND">
+            <option>VENEZIA</option>
+            <option>BOLZANO</option>
+            <option>MILANO</option>
+            <option>FIRENZE</option>
+            <option>ANCONA</option>
+        </property_options>
+        <property_options name="BOLOGNA_SEA">
+        </property_options>
+        <property_options name="MESSINA_LAND">
+            <option>NAPOLI</option>
+            <option>CATANIA</option>
+            <option>PALERMO</option>
+        </property_options>
+        <property_options name="MESSINA_SEA">
+        </property_options>
+        <property_options name="GENOVA_LAND">
+            <option>MILANO</option>
+            <option>NICE</option>
+            <option>PISA</option>
+        </property_options>
+        <property_options name="GENOVA_SEA">
+            <option>MARSEILLE</option>
+            <option>NAPOLI</option>
+        </property_options>
+        <property_options name="VALENCIA_LAND">
+            <option>BARCELONA</option>
+            <option>MADRID</option>
+            <option>ALICANTE</option>
+        </property_options>
+        <property_options name="VALENCIA_SEA">
+            <option>PALMA_MALLORCA</option>
+            <option>MALAGA</option>
+        </property_options>
+        <property_options name="PORTO_LAND">
+            <option>LA_CORUNA</option>
+            <option>COIMBRA</option>
+        </property_options>
+        <property_options name="PORTO_SEA">
+            <option>LISBOA</option>
+            <option>PLYMOUTH</option>
+            <option>BORDEAUX</option>
+        </property_options>
+        <property_options name="MALAGA_LAND">
+            <option>SEVILLA</option>
+            <option>GRANADA</option>
+        </property_options>
+        <property_options name="MALAGA_SEA">
+            <option>CADIZ</option>
+            <option>VALENCIA</option>
+        </property_options>
+        <property_options name="COIMBRA_LAND">
+            <option>PORTO</option>
+            <option>LISBOA</option>
+        </property_options>
+        <property_options name="COIMBRA_SEA">
+        </property_options>
+        <property_options name="SANTANDER_LAND">
+            <option>SAN_SEBASTIAN</option>
+            <option>VALLADOLID</option>
+            <option>LA_CORUNA</option>
+        </property_options>
+        <property_options name="SANTANDER_SEA">
+        </property_options>
+        <property_options name="LA_CORUNA_LAND">
+            <option>SANTANDER</option>
+            <option>VALLADOLID</option>
+            <option>PORTO</option>
+        </property_options>
+        <property_options name="LA_CORUNA_SEA">
+        </property_options>
+        <property_options name="PALERMO_LAND">
+            <option>MESSINA</option>
+        </property_options>
+        <property_options name="PALERMO_SEA">
+            <option>CAGLIARI</option>
+        </property_options>
+        <property_options name="BADAJOZ_LAND">
+            <option>MADRID</option>
+            <option>SEVILLA</option>
+            <option>LISBOA</option>
+        </property_options>
+        <property_options name="BADAJOZ_SEA">
+        </property_options>
+        <property_options name="PATRAI_LAND">
+            <option>ATHINAI</option>
+        </property_options>
+        <property_options name="PATRAI_SEA">
+            <option>ANCONA</option>
+        </property_options>
+        <property_options name="ZARAGOZA_LAND">
+            <option>SAN_SEBASTIAN</option>
+            <option>BARCELONA</option>
+            <option>MADRID</option>
+        </property_options>
+        <property_options name="ZARAGOZA_SEA">
+        </property_options>
+        <property_options name="EDIRNE_LAND">
+            <option>ISTANBUL</option>
+            <option>PLOVDIV</option>
+            <option>THESSALONIKI</option>
+        </property_options>
+        <property_options name="EDIRNE_SEA">
+        </property_options>
+        <property_options name="VARNA_LAND">
+            <option>BUCURESTI</option>
+            <option>SOFIJA</option>
+        </property_options>
+        <property_options name="VARNA_SEA">
+            <option>CONSTANTA</option>
+            <option>ISTANBUL</option>
+        </property_options>
+        <property_options name="TARANTO_LAND">
+            <option>BARI</option>
+            <option>NAPOLI</option>
+        </property_options>
+        <property_options name="TARANTO_SEA">
+            <option>ATHINAI</option>
+        </property_options>
+        <property_options name="ANCONA_LAND">
+            <option>BOLOGNA</option>
+            <option>ROMA</option>
+            <option>PESCARA</option>
+        </property_options>
+        <property_options name="ANCONA_SEA">
+            <option>SPLIT</option>
+            <option>PATRAI</option>
+        </property_options>
+        <property_options name="NARBONNE_LAND">
+            <option>CLERMONT_FERRAND</option>
+            <option>TOULOUSE</option>
+            <option>BARCELONA</option>
+            <option>MARSEILLE</option>
+        </property_options>
+        <property_options name="NARBONNE_SEA">
+        </property_options>
+        <property_options name="NIS_LAND">
+            <option>BEOGRAD</option>
+            <option>SKOPJE</option>
+            <option>SOFIJA</option>
+        </property_options>
+        <property_options name="NIS_SEA">
+        </property_options>
+        <property_options name="LARISA_LAND">
+            <option>THESSALONIKI</option>
+            <option>ATHINAI</option>
+        </property_options>
+        <property_options name="LARISA_SEA">
+        </property_options>
+        <property_options name="PLOVDIV_LAND">
+            <option>SOFIJA</option>
+            <option>EDIRNE</option>
+        </property_options>
+        <property_options name="PLOVDIV_SEA">
+        </property_options>
+        <property_options name="PALMA_MALLORCA_LAND">
+        </property_options>
+        <property_options name="PALMA_MALLORCA_SEA">
+            <option>BARCELONA</option>
+            <option>VALENCIA</option>
+        </property_options>
+        <property_options name="SOFIJA_LAND">
+            <option>NIS</option>
+            <option>BUCURESTI</option>
+            <option>VARNA</option>
+            <option>PLOVDIV</option>
+        </property_options>
+        <property_options name="SOFIJA_SEA">
+        </property_options>
+        <property_options name="NAPOLI_LAND">
+            <option>ROMA</option>
+            <option>TARANTO</option>
+            <option>MESSINA</option>
+        </property_options>
+        <property_options name="NAPOLI_SEA">
+            <option>GENOVA</option>
+            <option>AJACCIO</option>
+            <option>CAGLIARI</option>
+        </property_options>
+        <property_options name="TIRANE_LAND">
+        </property_options>
+        <property_options name="TIRANE_SEA">
+        </property_options>
+        <property_options name="BARI_LAND">
+            <option>PESCARA</option>
+            <option>TARANTO</option>
+        </property_options>
+        <property_options name="BARI_SEA">
+        </property_options>
+        <property_options name="LISBOA_LAND">
+            <option>COIMBRA</option>
+            <option>BADAJOZ</option>
+        </property_options>
+        <property_options name="LISBOA_SEA">
+            <option>PORTO</option>
+            <option>CADIZ</option>
+        </property_options>
+        <property_options name="ISTANBUL_LAND">
+            <option>EDIRNE</option>
+        </property_options>
+        <property_options name="ISTANBUL_SEA">
+            <option>VARNA</option>
+            <option>ATHINAI</option>
+        </property_options>
+        <property_options name="MILANO_LAND">
+            <option>BOLOGNA</option>
+            <option>ZURICH</option>
+            <option>TORINO</option>
+            <option>GENOVA</option>
+        </property_options>
+        <property_options name="MILANO_SEA">
+        </property_options>
+        <property_options name="BORDEAUX_LAND">
+            <option>NANTES</option>
+            <option>TOURS</option>
+            <option>TOULOUSE</option>
+            <option>LIMOGES</option>
+            <option>BIARRITZ</option>
+        </property_options>
+        <property_options name="BORDEAUX_SEA">
+            <option>BREST</option>
+            <option>PORTO</option>
+        </property_options>
+        <property_options name="DUBROVNIK_LAND">
+            <option>SARAJEVO</option>
+            <option>SPLIT</option>
+        </property_options>
+        <property_options name="DUBROVNIK_SEA">
+        </property_options>
+        <property_options name="CATANIA_LAND">
+            <option>MESSINA</option>
+        </property_options>
+        <property_options name="CATANIA_SEA">
+        </property_options>
+        <property_options name="VENEZIA_LAND">
+            <option>TRIESTE</option>
+            <option>BOLOGNA</option>
+        </property_options>
+        <property_options name="VENEZIA_SEA">
+        </property_options>
+        <property_options name="SEVILLA_LAND">
+            <option>BADAJOZ</option>
+            <option>CORDOBA</option>
+            <option>MALAGA</option>
+            <option>CADIZ</option>
+        </property_options>
+        <property_options name="SEVILLA_SEA">
+        </property_options>
+        <property_options name="GRANADA_LAND">
+            <option>MADRID</option>
+            <option>CORDOBA</option>
+            <option>MALAGA</option>
+            <option>ALICANTE</option>
+        </property_options>
+        <property_options name="GRANADA_SEA">
+        </property_options>
+        <property_options name="BEOGRAD_LAND">
+            <option>BUDAPEST</option>
+            <option>ZAGREB</option>
+            <option>SARAJEVO</option>
+            <option>NIS</option>
+        </property_options>
+        <property_options name="BEOGRAD_SEA">
+        </property_options>
+        <property_options name="CAGLIARI_LAND">
+            <option>SASSARI</option>
+        </property_options>
+        <property_options name="CAGLIARI_SEA">
+            <option>PALERMO</option>
+            <option>BUDAPEST</option>
+        </property_options>
+        <property_options name="FIRENZE_LAND">
+            <option>BOLOGNA</option>
+            <option>ROMA</option>
+            <option>PISA</option>
+        </property_options>
+        <property_options name="FIRENZE_SEA">
+        </property_options>
+        <property_options name="ATHINAI_LAND">
+            <option>LARISA</option>
+            <option>PATRAI</option>
+        </property_options>
+        <property_options name="ATHINAI_SEA">
+            <option>TARANTO</option>
+            <option>ISTANBUL</option>
+        </property_options>
+        <property_options name="NICE_LAND">
+            <option>GENOVA</option>
+            <option>MARSEILLE</option>
+        </property_options>
+        <property_options name="NICE_SEA">
+        </property_options>
+        <property_options name="MARSEILLE_LAND">
+            <option>NICE</option>
+            <option>LYON</option>
+            <option>NARBONNE</option>
+        </property_options>
+        <property_options name="MARSEILLE_SEA">
+            <option>GENOVA</option>
+            <option>AJACCIO</option>
+            <option>BARCELONA</option>
+        </property_options>
+        <property_options name="MADRID_LAND">
+            <option>VALLADOLID</option>
+            <option>BADAJOZ</option>
+            <option>CORDOBA</option>
+            <option>GRANADA</option>
+            <option>ALICANTE</option>
+            <option>VALENCIA</option>
+            <option>ZARAGOZA</option>
+        </property_options>
+        <property_options name="MADRID_SEA">
+        </property_options>
+        <property_options name="BARCELONA_LAND">
+            <option>NARBONNE</option>
+            <option>ZARAGOZA</option>
+            <option>VALENCIA</option>
+        </property_options>
+        <property_options name="BARCELONA_SEA">
+            <option>MARSEILLE</option>
+            <option>AJACCIO</option>
+            <option>PALMA_MALLORCA</option>
+        </property_options>
+        <property_options name="ROMA_LAND">
+            <option>PISA</option>
+            <option>FIRENZE</option>
+            <option>ANCONA</option>
+            <option>PESCARA</option>
+            <option>NAPOLI</option>
+        </property_options>
+        <property_options name="ROMA_SEA">
+        </property_options>
+        <property_options name="AJACCIO_LAND">
+        </property_options>
+        <property_options name="AJACCIO_SEA">
+            <option>MARSEILLE</option>
+            <option>BARCELONA</option>
+            <option>SASSARI</option>
+            <option>NAPOLI</option>
+        </property_options>
+        <property_options name="NURNBERG_LAND">
+            <option>MUNCHEN</option>
+            <option>LINZ</option>
+            <option>PLZEN</option>
+            <option>LEIPZIG</option>
+            <option>FRANKFURT</option>
+            <option>KASSEL</option>
+        </property_options>
+        <property_options name="NURNBERG_SEA">
+        </property_options>
+        <property_options name="BRNO_LAND">
+            <option>WROCLAW</option>
+            <option>PRAHA</option>
+            <option>WIEN</option>
+            <option>MISKOLC</option>
+            <option>KRAKOV</option>
+        </property_options>
+        <property_options name="BRNO_SEA">
+        </property_options>
+        <property_options name="CONSTANTA_LAND">
+            <option>BUCURESTI</option>
+        </property_options>
+        <property_options name="CONSTANTA_SEA">
+            <option>ODESSA</option>
+            <option>VARNA</option>
+        </property_options>
+        <property_options name="NANCY_LAND">
+            <option>LUXEMBOURG</option>
+            <option>REIMS</option>
+            <option>DIJON</option>
+            <option>STRASBOURG</option>
+        </property_options>
+        <property_options name="NANCY_SEA">
+        </property_options>
+        <property_options name="CLERMONT_FERRAND_LAND">
+            <option>LYON</option>
+            <option>PARIS</option>
+            <option>LIMOGES</option>
+            <option>NARBONNE</option>
+        </property_options>
+        <property_options name="CLERMONT_FERRAND_SEA">
+        </property_options>
+        <property_options name="LYON_LAND">
+            <option>DIJON</option>
+            <option>CLERMONT_FERRAND</option>
+            <option>MARSEILLE</option>
+            <option>TORINO</option>
+            <option>GENEVE</option>
+        </property_options>
+        <property_options name="LYON_SEA">
+        </property_options>
+        <property_options name="STUTTGART_LAND">
+            <option>FIRENZE</option>
+            <option>STRASBOURG</option>
+            <option>MUNCHEN</option>
+            <option>FRANKFURT</option>
+        </property_options>
+        <property_options name="STUTTGART_SEA">
+        </property_options>
+        <property_options name="REIMS_LAND">
+            <option>BRUXELLES</option>
+            <option>PARIS</option>
+            <option>NANCY</option>
+        </property_options>
+        <property_options name="REIMS_SEA">
+        </property_options>
+        <property_options name="BASEL_LAND">
+            <option>STRASBOURG</option>
+            <option>DIJON</option>
+            <option>BERN</option>
+            <option>ZURICH</option>
+        </property_options>
+        <property_options name="BASEL_SEA">
+        </property_options>
+        <property_options name="ODESSA_LAND">
+            <option>VINNICA</option>
+            <option>GALATI</option>
+        </property_options>
+        <property_options name="ODESSA_SEA">
+            <option>CONSTANTA</option>
+        </property_options>
+        <property_options name="LEIPZIG_LAND">
+            <option>DRESDEN</option>
+            <option>KASSEL</option>
+            <option>NURNBERG</option>
+        </property_options>
+        <property_options name="LEIPZIG_SEA">
+        </property_options>
+        <property_options name="CLUJ_NAPOCA_LAND">
+            <option>BUDAPEST</option>
+            <option>BUCURESTI</option>
+            <option>GALATI</option>
+        </property_options>
+        <property_options name="CLUJ_NAPOCA_SEA">
+        </property_options>
+        <property_options name="PLZEN_LAND">
+            <option>PRAHA</option>
+            <option>NURNBERG</option>
+        </property_options>
+        <property_options name="PLZEN_SEA">
+        </property_options>
+        <property_options name="DOVER_LAND">
+            <option>LONDON</option>
+            <option>CALAIS</option>
+        </property_options>
+        <property_options name="DOVER_SEA">
+        </property_options>
+        <property_options name="ZAGREB_LAND">
+            <option>GRAZ</option>
+            <option>SALZBURG</option>
+            <option>TRIESTE</option>
+            <option>SPLIT</option>
+            <option>SARAJEVO</option>
+            <option>BEOGRAD</option>
+            <option>BUDAPEST</option>
+        </property_options>
+        <property_options name="ZAGREB_SEA">
+        </property_options>
+        <property_options name="RENNES_LAND">
+            <option>BREST</option>
+            <option>PARIS</option>
+            <option>NANTES</option>
+        </property_options>
+        <property_options name="RENNES_SEA">
+        </property_options>
+        <property_options name="TRIESTE_LAND">
+            <option>ZAGREB</option>
+            <option>SPLIT</option>
+            <option>VENEZIA</option>
+        </property_options>
+        <property_options name="TRIESTE_SEA">
+        </property_options>
+        <property_options name="LIMOGES_LAND">
+            <option>BOURGES</option>
+            <option>BORDEAUX</option>
+            <option>CLERMONT_FERRAND</option>
+        </property_options>
+        <property_options name="LIMOGES_SEA">
+        </property_options>
+        <property_options name="GALATI_LAND">
+            <option>CERNOVCY</option>
+            <option>CLUJ_NAPOCA</option>
+            <option>BUCURESTI</option>
+            <option>ODESSA</option>
+        </property_options>
+        <property_options name="GALATI_SEA">
+        </property_options>
+        <property_options name="KASSEL_LAND">
+            <option>HANNOVER</option>
+            <option>KOLN</option>
+            <option>FRANKFURT</option>
+            <option>NURNBERG</option>
+            <option>LEIPZIG</option>
+        </property_options>
+        <property_options name="KASSEL_SEA">
+        </property_options>
+        <property_options name="WROCLAW_LAND">
+            <option>POZNAN</option>
+            <option>DRESDEN</option>
+            <option>PRAHA</option>
+            <option>BRNO</option>
+            <option>KRAKOV</option>
+            <option>LODZ</option>
+        </property_options>
+        <property_options name="WROCLAW_SEA">
+        </property_options>
+        <property_options name="DIJON_LAND">
+            <option>PARIS</option>
+            <option>LYON</option>
+            <option>BASEL</option>
+            <option>NANCY</option>
+        </property_options>
+        <property_options name="DIJON_SEA">
+        </property_options>
+        <property_options name="TOURS_LAND">
+            <option>ORLEANS</option>
+            <option>NANTES</option>
+            <option>BORDEAUX</option>
+        </property_options>
+        <property_options name="TOURS_SEA">
+        </property_options>
+        <property_options name="LINZ_LAND">
+            <option>PRAHA</option>
+            <option>NURNBERG</option>
+            <option>SALZBURG</option>
+            <option>WIEN</option>
+        </property_options>
+        <property_options name="LINZ_SEA">
+        </property_options>
+        <property_options name="LE_HAVRE_LAND">
+            <option>CALAIS</option>
+            <option>PARIS</option>
+        </property_options>
+        <property_options name="LE_HAVRE_SEA">
+            <option>PLYMOUTH</option>
+            <option>BREST</option>
+        </property_options>
+        <property_options name="SALZBURG_LAND">
+            <option>LINZ</option>
+            <option>MUNCHEN</option>
+            <option>INNSBRUCK</option>
+            <option>ZAGREB</option>
+        </property_options>
+        <property_options name="SALZBURG_SEA">
+        </property_options>
+        <property_options name="LILLE_LAND">
+            <option>BRUXELLES</option>
+            <option>CALAIS</option>
+            <option>PARIS</option>
+        </property_options>
+        <property_options name="LILLE_SEA">
+        </property_options>
+        <property_options name="GRAZ_LAND">
+            <option>WIEN</option>
+            <option>BUDAPEST</option>
+            <option>ZAGREB</option>
+        </property_options>
+        <property_options name="GRAZ_SEA">
+        </property_options>
+        <property_options name="CALAIS_LAND">
+            <option>DOVER</option>
+            <option>LE_HAVRE</option>
+            <option>PARIS</option>
+            <option>LILLE</option>
+        </property_options>
+        <property_options name="CALAIS_SEA">
+        </property_options>
+        <property_options name="KRAKOV_LAND">
+            <option>WARSZAWA</option>
+            <option>WROCLAW</option>
+            <option>BRNO</option>
+            <option>LVOV</option>
+        </property_options>
+        <property_options name="KRAKOV_SEA">
+        </property_options>
+        <property_options name="LVOV_LAND">
+            <option>KRAKOV</option>
+            <option>MISKOLC</option>
+            <option>CERNOVCY</option>
+            <option>VINNICA</option>
+        </property_options>
+        <property_options name="LVOV_SEA">
+        </property_options>
+        <property_options name="CERNOVCY_LAND">
+            <option>LVOV</option>
+            <option>GALATI</option>
+        </property_options>
+        <property_options name="CERNOVCY_SEA">
+        </property_options>
+        <property_options name="LODZ_LAND">
+            <option>WARSZAWA</option>
+            <option>POZNAN</option>
+            <option>WROCLAW</option>
+        </property_options>
+        <property_options name="LODZ_SEA">
+        </property_options>
+        <property_options name="CHARKOV_LAND">
+            <option>MOSKVA</option>
+            <option>KIJEV</option>
+            <option>ODESSA</option>
+        </property_options>
+        <property_options name="CHARKOV_SEA">
+        </property_options>
+        <property_options name="ROTTERDAM_LAND">
+            <option>AMSTERDAM</option>
+            <option>BRUXELLES</option>
+        </property_options>
+        <property_options name="ROTTERDAM_SEA">
+            <option>LONDON</option>
+        </property_options>
+        <property_options name="PLYMOUTH_LAND">
+            <option>LONDON</option>
+        </property_options>
+        <property_options name="PLYMOUTH_SEA">
+            <option>LE_HAVRE</option>
+            <option>PORTO</option>
+        </property_options>
+        <property_options name="NANTES_LAND">
+            <option>RENNES</option>
+            <option>TOURS</option>
+            <option>BORDEAUX</option>
+        </property_options>
+        <property_options name="NANTES_SEA">
+        </property_options>
+        <property_options name="VINNICA_LAND">
+            <option>KIJEV</option>
+            <option>LVOV</option>
+            <option>ODESSA</option>
+        </property_options>
+        <property_options name="VINNICA_SEA">
+        </property_options>
+        <property_options name="KIJEV_LAND">
+            <option>SMOLENSK</option>
+            <option>VINNICA</option>
+            <option>CHARKOV</option>
+        </property_options>
+        <property_options name="KIJEV_SEA">
+        </property_options>
+        <property_options name="BOURGES_LAND">
+            <option>ORLEANS</option>
+            <option>LIMOGES</option>
+        </property_options>
+        <property_options name="BOURGES_SEA">
+        </property_options>
+        <property_options name="MISKOLC_LAND">
+            <option>LVOV</option>
+            <option>BRNO</option>
+            <option>BUDAPEST</option>
+        </property_options>
+        <property_options name="MISKOLC_SEA">
+        </property_options>
+        <property_options name="BOLZANO_LAND">
+            <option>INNSBRUCK</option>
+            <option>BOLZANO</option>
+            <option>BOLOGNA</option>
+        </property_options>
+        <property_options name="BOLZANO_SEA">
+        </property_options>
+        <property_options name="BUCURESTI_LAND">
+            <option>CLUJ_NAPOCA</option>
+            <option>SOFIJA</option>
+            <option>VARNA</option>
+            <option>CONSTANTA</option>
+            <option>GALATI</option>
+        </property_options>
+        <property_options name="BUCURESTI_SEA">
+        </property_options>
+        <property_options name="GENEVE_LAND">
+            <option>LYON</option>
+            <option>BERN</option>
+        </property_options>
+        <property_options name="GENEVE_SEA">
+        </property_options>
+        <property_options name="STRASBOURG_LAND">
+            <option>FRANKFURT</option>
+            <option>NANCY</option>
+            <option>BASEL</option>
+            <option>STUTTGART</option>
+        </property_options>
+        <property_options name="STRASBOURG_SEA">
+        </property_options>
+        <property_options name="ZURICH_LAND">
+            <option>BASEL</option>
+            <option>MILANO</option>
+            <option>INNSBRUCK</option>
+        </property_options>
+        <property_options name="ZURICH_SEA">
+        </property_options>
+        <property_options name="PARIS_LAND">
+            <option>LE_HAVRE</option>
+            <option>RENNES</option>
+            <option>ORLEANS</option>
+            <option>CLERMONT_FERRAND</option>
+            <option>DIJON</option>
+            <option>REIMS</option>
+            <option>LILLE</option>
+            <option>CALAIS</option>
+        </property_options>
+        <property_options name="PARIS_SEA">
+        </property_options>
+        <property_options name="PRAHA_LAND">
+            <option>WROCLAW</option>
+            <option>DRESDEN</option>
+            <option>PLZEN</option>
+            <option>LINZ</option>
+            <option>WIEN</option>
+            <option>BRNO</option>
+        </property_options>
+        <property_options name="PRAHA_SEA">
+        </property_options>
+        <property_options name="ORLEANS_LAND">
+            <option>PARIS</option>
+            <option>TOURS</option>
+            <option>BOURGES</option>
+        </property_options>
+        <property_options name="ORLEANS_SEA">
+        </property_options>
+        <property_options name="KOLN_LAND">
+            <option>HAMBURG</option>
+            <option>AMSTERDAM</option>
+            <option>BRUXELLES</option>
+            <option>LUXEMBOURG</option>
+            <option>FRANKFURT</option>
+            <option>KASSEL</option>
+        </property_options>
+        <property_options name="KOLN_SEA">
+        </property_options>
+        <property_options name="BERN_LAND">
+            <option>BASEL</option>
+            <option>GENEVE</option>
+        </property_options>
+        <property_options name="BERN_SEA">
+        </property_options>
+        <property_options name="FURT_LAND">
+            <option>KASSEL</option>
+            <option>KOLN</option>
+            <option>STUTTGART</option>
+            <option>STRASBOURG</option>
+            <option>NURNBERG</option>
+        </property_options>
+        <property_options name="FRANKFURT_LAND">
+            <option>STUTTGART</option>
+            <option>NURNBERG</option>
+            <option>KASSEL</option>
+            <option>STRASBOURG</option>
+            <option>KOLN</option>
+        </property_options>
+        <property_options name="FRANKFURT_SEA">
+        </property_options>
+        <property_options name="INNSBRUCK_LAND">
+            <option>MUNCHEN</option>
+            <option>ZURICH</option>
+            <option>BOLZANO</option>
+            <option>SALZBURG</option>
+        </property_options>
+        <property_options name="INNSBRUCK_SEA">
+        </property_options>
+        <property_options name="BUDAPEST_LAND">
+            <option>MISKOLC</option>
+            <option>WIEN</option>
+            <option>GRAZ</option>
+            <option>ZAGREB</option>
+            <option>BEOGRAD</option>
+            <option>CLUJ_NAPOCA</option>
+        </property_options>
+        <property_options name="BUDAPEST_SEA">
+        </property_options>
+        <property_options name="BRUXELLES_LAND">
+            <option>ROTTERDAM</option>
+            <option>LILLE</option>
+            <option>REIMS</option>
+            <option>LUXEMBOURG</option>
+            <option>KOLN</option>
+        </property_options>
+        <property_options name="BRUXELLES_SEA">
+        </property_options>
+        <property_options name="DRESDEN_LAND">
+            <option>BERLIN</option>
+            <option>LEIPZIG</option>
+            <option>PRAHA</option>
+            <option>WROCLAW</option>
+        </property_options>
+        <property_options name="DRESDEN_SEA">
+        </property_options>
+        <property_options name="LUXEMBOURG_LAND">
+            <option>KOLN</option>
+            <option>BRUXELLES</option>
+            <option>NANCY</option>
+        </property_options>
+        <property_options name="LUXEMBOURG_SEA">
+        </property_options>
+        <property_options name="MUNCHEN_LAND">
+            <option>NURNBERG</option>
+            <option>STUTTGART</option>
+            <option>INNSBRUCK</option>
+            <option>SALZBURG</option>
+        </property_options>
+        <property_options name="MUNCHEN_SEA">
+        </property_options>
+        <property_options name="WIEN_LAND">
+            <option>BRNO</option>
+            <option>PRAHA</option>
+            <option>LINZ</option>
+            <option>GRAZ</option>
+            <option>BUDAPEST</option>
+        </property_options>
+        <property_options name="WIEN_SEA">
+        </property_options>
+        <property_options name="BREST_LAND">
+            <option>RENNES</option>
+        </property_options>
+        <property_options name="BREST_SEA">
+            <option>LE_HAVRE</option>
+            <option>BORDEAUX</option>
+        </property_options>
+    </property_options_list>
+
+</properties>

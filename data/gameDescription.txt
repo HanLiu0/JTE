@@ -1,0 +1,20 @@
+Play 
+- Players throw the die in turn. 
+- The number thrown indicates the number of cities through which the player advances. 
+- If he lands on or passes through a city for which he holds a place card, he gives this card to the dealer. 
+- If a six is thrown, the player may take another turn. 
+- Players can travel in any direction, but not backwards and forwards in the same go.
+- They can pass any flags or playing pieces, but only one playing piece can be in one city at any given time. 
+- If a player reaches a city for which he holds a card with special instructions, he must stop there, even if his throw means he could normally go further. The instructions must now be carried out. 
+- He then gives the place card to the dealer and the next person takes his turn. 
+
+Sea Routes: 
+- The die is not thrown when a player crosses the sea, as he may only travel from one harbor to another. 
+- A player may not cross the sea as part of his go. 
+- He must wait at the harbor for his next turn; extra points are lost. 
+
+Air Routes 
+The journey can be speeded up a lot by cleverly planned flights. There are 35 air pons on the board, and all appear on the flight plans. They are marked on both board and flight plans with a red spot. If a player reaches a city with an airport and has points left to travel, the journey can be continued by plane. This is where the flight plan comes into play. The flight plan is divided into six sectors. A flight to any airport city in the same sector requires two dice points. Four points are required to cross over into an adjoining sector. A player may only move vertically or horizontally when flying into another sector, not diagonally. If a player is at an airport and scores too few points to fly to his desired destination, he may not remain at the airport. He must move on, either by land or air, by the number he has thrown. If a player has dice points left after his plane journey he must move on from his place of arrival. A player may fly only once during his turn. The airport he wishes to reach must be unoccupied, i.e. no other player's playing piece must be sitting there. If the airport is occupied, the player must either continue to travel by land or choose another airport to go to. All airport cities have special instructions. If a player holds a card for an airport city the special instructions on this card take priority over any intentions to fly from there. 
+
+End of the Game 
+The last card to be handed in is that for the city from which the journey started. The player who is first to achieve this is the winner. If, however, there are special instructions on the player's last card, he must carry them out first. This may mean that the player will have to leave this place again and that he will only win if he returns in time.
